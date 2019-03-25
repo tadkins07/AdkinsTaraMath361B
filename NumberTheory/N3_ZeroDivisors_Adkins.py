@@ -12,7 +12,7 @@ zeros=[]
 
 for x in range(1,m):
      for y in range(1,m):
-         if (x * y) % m == 0:
+         if (x + y) % m == 0:
             zeros.append([x,y])
             
 print('Zero divisors are',zeros)
